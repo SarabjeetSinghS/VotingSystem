@@ -1,0 +1,13 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net5.0</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\VotingSystem.Infrastructure\VotingSystem.Infrastructure.csproj" />
+    <ProjectReference Include="..\VotingSystem.Model\VotingSystem.Model.csproj" />
+    <ProjectReference Include="..\VotingSystem.Repository\VotingSystem.Repository.csproj" />
+  </ItemGroup>
+
+</Project>
